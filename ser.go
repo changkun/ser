@@ -38,7 +38,7 @@ ser ..
 ser -p 8088 ..
 	serve .. directory using port 8088
 ser -addr 0.0.0.0 -p 9999
-		server . directory using address 0.0.0.0:9999
+		serve . directory using address 0.0.0.0:9999
 `)
 	os.Exit(2)
 }
